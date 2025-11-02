@@ -25,6 +25,15 @@ Module2_Memory_Agent/
     └── memory.json
 ```
 
+| **Lab** | **Fichiers principaux** | **Objectif pédagogique** |
+|----------|------------------------|---------------------------|
+| **Lab 1** | `chatbot_sans_memoire.py`, `chatbot_avec_memoire.py` | Comprendre la différence entre un agent avec et sans mémoire |
+| **Lab 2** | `memoire_court_terme.py` | Implémenter une mémoire à court terme (ConversationBufferMemory) |
+| **Lab 3** | `memoire_long_terme.py`, `chroma_mem.py` | Créer une mémoire à long terme (Vector Store / Chroma) |
+| **Lab 4** | `memoire_resumee.py` | Réduire la mémoire via un résumé (ConversationSummaryMemory) |
+| **Lab 5** | `test_memoire.py` | Évaluer l’efficacité de la mémoire (Recall / Update / Forget) |
+| **Lab 6** | `memoire_persistante.py`, `memory.json` | Sauvegarder et recharger la mémoire persistante (JSON) |
+
 ## Prérequis
 - Python 3.11+
 - Ollama installé, avec le modèle `mistral` :
