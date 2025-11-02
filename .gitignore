@@ -1,0 +1,25 @@
+# === Python ===
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Environnements / secrets ===
+.env
+*.env
+
+# === OS ===
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Captures d’écran / médias ===
+*.png
+*.jpg
+*.jpeg
+
+
